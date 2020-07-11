@@ -23,7 +23,7 @@ The same requirements how to use [SwiftUI](https://developer.apple.com/documenta
 ## Installation
 
 Feel free copy-paste ```EmptyList``` to your project or can install via [CocoaPods](https://cocoapods.org).
-Аor installation through [CocoaPods](https://cocoapods.org) add the following line to your Podfile:
+For installation through [CocoaPods](https://cocoapods.org) add the following line to your Podfile:
 
 ```ruby
 pod 'EmptyList', '~> 1.0.0'
