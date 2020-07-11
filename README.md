@@ -32,7 +32,10 @@ let countries: [Country] = [
 
 ## Requirements
 
-The same requirements how to use [SwiftUI](https://developer.apple.com/documentation/swiftui). Availability:
+Xcode 11+
+Swift 5.2+
+
+And same requirements how to use [SwiftUI](https://developer.apple.com/documentation/swiftui). Availability:
 - iOS 13.0+
 - macOS 10.15+
 - Mac Catalyst 13.0+
