@@ -29,10 +29,10 @@ let countries: [Country] = [
     /// Others countries 
 ]
 ```
-<div style="display: flex;">
-    <img src="Assets/Countries.png" width="50%" height="100%">
-    <img src="Assets/NoCountries.png" width="50%" height="100%">
-</div>
+
+<div align="center"><img src="Assets/Countries.png" width="100%" height="382px"></div>
+<div align="center"><img src="Assets/NoCountries.png" width="100%" height="382px"></div>
+
 // TODO Add example link
 
 ## Requirements
