@@ -1,0 +1,6 @@
+module EmptyList {
+  umbrella header "EmptyList-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_EmptyListDemo {
+  umbrella header "Pods-EmptyListDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
