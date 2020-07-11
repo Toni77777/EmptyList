@@ -6,3 +6,29 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 EmptyList - List(SwiftUI) supports displaying Empty ListView for empty state
+
+## Example
+
+//TODO
+
+## Requirements
+
+The same requirements how to use [SwiftUI](https://developer.apple.com/documentation/swiftui). Availability:
+- iOS 13.0+
+- macOS 10.15+
+- Mac Catalyst 13.0+
+- tvOS 13.0+
+- watchOS 6.0+
+
+## Installation
+
+Feel free copy-paste ```EmptyList``` to your project or can install via [CocoaPods](https://cocoapods.org).
+Аor installation through [CocoaPods](https://cocoapods.org) add the following line to your Podfile:
+
+```ruby
+pod 'EmptyList', '~> 1.0.0'
+```
+
+## License
+
+EmptyList is available under the MIT license. See the LICENSE file for more info.
