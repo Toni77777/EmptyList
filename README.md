@@ -30,8 +30,8 @@ let countries: [Country] = [
 ]
 ```
 
-<div align="center"><img src="Assets/Countries.png" width="100%" height="382px"></div>
-<div align="center"><img src="Assets/NoCountries.png" width="100%" height="382px"></div>
+<div align="center"><img src="Assets/Countries.png" height="382px"></div>
+<div align="center"><img src="Assets/NoCountries.png" height="382px"></div>
 
 // TODO Add example link
 
