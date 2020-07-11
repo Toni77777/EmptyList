@@ -11,6 +11,25 @@ EmptyList - List(SwiftUI) supports displaying Empty ListView for empty state
 
 //TODO
 
+```swift
+struct Country: Identifiable {
+    let id: UUID
+    let name: String
+}
+
+let countries: [Country] = [
+    Country(id: UUID(), name: "Poland"),
+    Country(id: UUID(), name: "Germany")
+    // Others countries 
+]
+
+EmptyList(countries, listRowView: { country in
+    Text(country.name)
+}, emptyListView: {
+    Text("No countries")
+})
+```
+
 ## Requirements
 
 The same requirements how to use [SwiftUI](https://developer.apple.com/documentation/swiftui). Availability:
