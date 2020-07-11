@@ -10,6 +10,12 @@ EmptyList - List(SwiftUI) supports displaying Empty ListView for empty state
 ## Example
 
 ```swift
+EmptyList(countries, listRowView: { country in
+    Text(country.name)
+}, emptyListView: {
+    Text("No countries") // View displayed when the items collection isEmpty
+})
+
 // Source data for List. Source item must implement Identifiable protocol
 struct Country: Identifiable {
     let id: UUID
@@ -22,12 +28,6 @@ let countries: [Country] = [
     Country(id: UUID(), name: "Germany")
     /// Others countries 
 ]
-
-EmptyList(countries, listRowView: { country in
-    Text(country.name)
-}, emptyListView: {
-    Text("No countries") // View displayed when the items collection isEmpty
-})
 ```
 
 ## Requirements
