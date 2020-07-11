@@ -16,8 +16,10 @@ struct CountriesView: View {
     var body: some View {
         EmptyList(countries, listRowView: { country in
             Text(country.name)
+                .font(.title)
         }, emptyListView: {
-            Text("No countries") // View displayed when the items collection isEmpty
+            Text("No countries")
+                .font(.largeTitle)
         })
     }
 }
