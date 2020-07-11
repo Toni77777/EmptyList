@@ -1,3 +1,9 @@
+<style>
+ .images {
+  display: flex;
+ }
+ </style>
+   
 # EmptyList
 
 [![Swift 5](https://img.shields.io/badge/swift-5-orange)](https://swift.org/)
@@ -29,7 +35,7 @@ let countries: [Country] = [
     /// Others countries 
 ]
 ```
-<div display="flex">
+<div class="images">
     <div align="center"><img src="Assets/Countries.png" width="50%" height="100%"></div>
     <div align="center"><img src="Assets/NoCountries.png" width="50%" height="100%"></div>
 </div>
