@@ -37,8 +37,8 @@ let countries: [Country] = [
 
 ## Requirements
 
-Xcode 11+
-Swift 5.2+
+- Xcode 11+
+- Swift 5.2+
 
 And same requirements how to use [SwiftUI](https://developer.apple.com/documentation/swiftui). Availability:
 - iOS 13.0+
