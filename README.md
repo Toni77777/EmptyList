@@ -7,7 +7,7 @@
 
 EmptyList - List(SwiftUI) supports displaying Empty ListView for empty state
 
-## Example
+## Usage
 
 ```swift
 EmptyList(countries, listRowView: { country in
@@ -32,6 +32,8 @@ let countries: [Country] = [
 
 <div align="left"><img src="Assets/countries_iphone11.png" height="482px"></div>
 <div align="left"><img src="Assets/no_countries_iphone11.png" height="482px"></div>
+
+## Example
 
 Look [here](https://github.com/Toni77777/EmptyList/tree/master/Demo) if need more details
 
